@@ -72,4 +72,7 @@ img{
     background-color: grey;
     padding: 3px;
 }
+.space{
+    justify-content: space-between;
+}
 
