@@ -39,17 +39,14 @@ img{
 }
 .cards{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
-    width: calc(100vw / 7 -10px);
+    
 
 }
 .card-container{
     padding: 10px 5px;
+    width: calc( 100vw / 7.5 );
 }
-.padding2{
-   padding-right: 50px;
-}
-.padding1{
-    padding-left:50px ;
-}
+
+
