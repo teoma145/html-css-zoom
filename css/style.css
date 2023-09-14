@@ -1,0 +1,27 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bgcolor:#0D0D0D;
+    --playbar:#212121;
+}
+body{
+    color: white;
+}
+.debug{
+    border: 1px solid white;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bgcolor);
+}
+.playbar{
+    background-color:var(--playbar);
+    height: 90px;
+}
+main{
+    height: calc(100vh - 90px);
+}
