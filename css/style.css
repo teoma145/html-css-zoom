@@ -10,9 +10,9 @@
 body{
     color: white;
 }
-.debug{
+/*.debug{
     border: 1px solid white;
-}
+}*/
 .container{
     width: 100%;
     height: 100vh;
@@ -30,12 +30,13 @@ main{
     display: flex;
     justify-content: flex-end;
 }
-span{
+.enlarge span{
     font-size: 0.8em;
     padding: 0px 5px;
 }
 img{
     width: 100%;
+    height: 100%;
 }
 .cards{
     display: flex;
@@ -47,6 +48,28 @@ img{
 .card-container{
     padding: 10px 5px;
     width: calc( 100vw / 7.5 );
+    height: calc(100vh / 6);
+    position: relative;
 }
 
+.flex{
+    display: flex;
+}
+.icons{
+    font-size: 1.5em;
+    padding: 10px 20px;
+    display: block;
+}
+
+.text{
+    padding-left: 10px;
+    text-align: center;
+}
+.pinco{
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    background-color: grey;
+    padding: 3px;
+}
 
